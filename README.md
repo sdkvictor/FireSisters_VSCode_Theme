@@ -1,5 +1,5 @@
 # Fire Sisters VSCode Color Theme
-*A custom VS Code theme inspired by anime aesthetics of the "Fire Sisters" from the Monogatari series and designed for long coding sessions.*
+*A custom VS Code theme inspired by anime aesthetics of the "Fire Sisters" from the Monogatari series designed for long coding sessions.*
 
 ![Preview](./preview.png)
 
