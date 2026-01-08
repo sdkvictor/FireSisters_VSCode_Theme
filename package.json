@@ -1,0 +1,21 @@
+{
+  "name": "fire-sisters",
+  "displayName": "Fire Sisters",
+  "description": "Theme built around the Fire Sisters colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fire Sisters",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fire-sisters-color-theme.json"
+      }
+    ]
+  }
+}
