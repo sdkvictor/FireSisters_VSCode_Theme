@@ -54,10 +54,12 @@ https://marketplace.visualstudio.com/items?itemName=doki-theme.doki-theme-vscode
 2. Press Ctrl + Shift + P
 3. Choose: Open User Settings (JSON)
 4. Add (or edit) the following settings:
-```JSON{
+```json
+{
   "doki.wallpaper.path": "/absolute/path/to/wallpaper.png",
   "doki.wallpaper.opacity": 0.08
-}```
+}
+```
 
 Notes
 - `wallpaper.path` must be an absolute file path.
@@ -66,11 +68,13 @@ Notes
 
 These optional VS Code settings pair well with this theme:
 
-```JSON{
+```json
+{
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.cursorBlinking": "smooth",
   "editor.renderWhitespace": "selection",
   "workbench.tree.indent": 16
-}```
+}
+```
 
