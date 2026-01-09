@@ -40,14 +40,13 @@ Done!
 
 This theme includes a matching wallpaper (`./wallpaper.png`) that you can use as your VS Code background through the **Background / Wallpaper** extension by shalldie.
 
-### Install the extension
+#### Install the extension
 
 **Background (Wallpaper)**  
 https://marketplace.visualstudio.com/items?itemName=shalldie.background
 
----
 
-## How to Add the Wallpaper
+#### How to Add the Wallpaper
 
 1. Install the extension above  
 2. Open VS Code  
@@ -65,6 +64,8 @@ https://marketplace.visualstudio.com/items?itemName=shalldie.background
   "position": "center"
 }
 ```
+
+---
 
 ### Recommended Settings
 
