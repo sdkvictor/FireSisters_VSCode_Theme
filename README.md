@@ -36,17 +36,17 @@ Done!
 
 ---
 
-### Optional: Apply the Included Wallpaper (Using “Background” by shalldie)
+## Optional: Apply the Included Wallpaper (Using “Background” by shalldie)
 
 This theme includes a matching wallpaper (`./wallpaper.png`) that you can use as your VS Code background through the **Background / Wallpaper** extension by shalldie.
 
-#### Install the extension
+### Install the extension
 
 **Background (Wallpaper)**  
 https://marketplace.visualstudio.com/items?itemName=shalldie.background
 
 
-#### How to Add the Wallpaper
+### How to Add the Wallpaper
 
 1. Install the extension above  
 2. Open VS Code  
@@ -67,7 +67,7 @@ https://marketplace.visualstudio.com/items?itemName=shalldie.background
 
 ---
 
-### Recommended Settings
+## Recommended Settings
 
 These optional VS Code settings pair well with this theme:
 
