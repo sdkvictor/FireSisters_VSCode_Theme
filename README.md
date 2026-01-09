@@ -36,33 +36,35 @@ Done!
 
 ---
 
-### Optional: Apply the Included Wallpaper (Doki Theme Integration)
+### Optional: Apply the Included Wallpaper (Using “Background” by shalldie)
 
-This theme includes a matching wallpaper (./wallpaper.png) that you can use with the Doki Theme extension.
+This theme includes a matching wallpaper (`./wallpaper.png`) that you can use as your VS Code background through the **Background / Wallpaper** extension by shalldie.
 
-Requirements
+### Install the extension
 
-Install Doki Theme for VS Code:
+**Background (Wallpaper)**  
+https://marketplace.visualstudio.com/items?itemName=shalldie.background
 
-https://marketplace.visualstudio.com/items?itemName=doki-theme.doki-theme-vscode
+---
 
-(You do not need to use a Doki color theme — only the wallpaper feature.)
+## How to Add the Wallpaper
 
-#### How to Add the Wallpaper
+1. Install the extension above  
+2. Open VS Code  
+3. Press `Ctrl + Shift + P`  
+4. Select **Open User Settings (JSON)**  
+5. Add (or edit) the following:
 
-1. Open VS Code
-2. Press Ctrl + Shift + P
-3. Choose: Open User Settings (JSON)
-4. Add (or edit) the following settings:
 ```json
-{
-  "doki.wallpaper.path": "/absolute/path/to/wallpaper.png",
-  "doki.wallpaper.opacity": 0.08
+"background.enabled": true,
+"background.useDefault": false,
+"background.fullscreen": {
+  "image": "/absolute/path/to/wallpaper.png",
+  "opacity": 0.15,
+  "size": "cover",
+  "position": "center"
 }
 ```
-
-Notes
-- `wallpaper.path` must be an absolute file path.
 
 ### Recommended Settings
 
